@@ -1,0 +1,169 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #eae7dc;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+/* Container */
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    max-width: 1300px;
+    text-align: center;
+    margin: 40px auto;
+    gap: 30px;
+}
+
+/* Header */
+header {
+    background: #8d99ae;
+    color: white;
+    padding: 25px;
+    width: 350px;
+    border-radius: 15px;
+    font-size: 26px;
+    font-weight: bold;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Image Section */
+.image-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.image-section img {
+    width: 90%;
+    max-width: 250px;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer Tab (Black Section) */
+.footer-tab {
+    background: #2b2d42;
+    color: white;
+    padding: 15px;
+    width: 100%;
+    max-width: 250px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Content Section */
+.content-section {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+    width: 100%;
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 15px 0;
+    color: white;
+    text-align: left;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    width: 90%;
+}
+
+.section:hover {
+    transform: scale(1.03);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.section img {
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+}
+
+.foundation {
+    background: #3d405b;
+    border-left: 10px solid #2b2d42;
+}
+
+.people {
+    background: #81b29a;
+    border-left: 10px solid #3d6f5a;
+}
+
+.culture {
+    background: #f4a261;
+    border-left: 10px solid #c97c5d;
+}
+
+.leadership {
+    background: #e76f51;
+    border-left: 10px solid #c2452d;
+}
+
+.processes {
+    background: #f2cc8f;
+    border-left: 10px solid #d9a94d;
+}
+
+h2 {
+    font-size: 26px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+h3 {
+    margin: 0;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    padding: 6px 0;
+}
+
+li img {
+    width: 26px;
+    height: 26px;
+    margin-right: 10px;
+}
+
+/* Footer */
+footer {
+    background: transparent;
+    padding: 10px;
+    width: 100%;
+    max-width: 1300px;
+    margin: auto;
+    text-align: center;
+}
